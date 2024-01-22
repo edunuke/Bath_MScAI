@@ -76,6 +76,9 @@ def predict_from_env(model, env, n_steps):
 
 
 def predict_from_frame(model, features):
+    """
+    Predict Actions in Regular binary environment
+    """
     actions = []
     date_codes = []
     for step in features.iterrows():
@@ -87,6 +90,9 @@ def predict_from_frame(model, features):
     return actions, date_codes
 
 def predict_from_frame_v2(model, features, default_rate=0.0, penalty=0.0):
+    """
+    Predict actions in multitarget enviornment
+    """
     actions = []
     date_codes = []
     for step in features.iterrows():

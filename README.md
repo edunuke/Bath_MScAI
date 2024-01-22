@@ -6,8 +6,7 @@ The folder structure is as follows:
 
 1. data:
    1. dataset_1: Synthetic dataset trained on TVAE from real data (main artifact for the thesis)
-      1. raw: raw dataset as received
-      2. processed: processed dataset after running model/1_dataprep.ipynb
+      1. processed: processed dataset after running model/1_dataprep.ipynb
    2. dataset_2: Secondary dataset from https://www.kaggle.com/datasets/parisrohan/credit-score-classification
       1. raw: raw dataset as downloaded
    
@@ -27,7 +26,7 @@ The folder structure is as follows:
       6. riskenv.py : personal implementation of different environment for testing
    4. 1_dataprep.ipynb : all preprocessing of the raw data happens here.
    5. 2_modeling.ipynb : all modeling code for testing the agents and environment for dataset_1 (binary class)
-   6. 3_modeling.ipynb : all modeling code for testing the agents and environment for dataset_2 (multi class dataset)
+   6. 3_modeling.ipynb : all modeling code for testing the agents and environment for dataset_2 (multi class Environment dataset)
 
 
 ** All code is commented for better legibility **
