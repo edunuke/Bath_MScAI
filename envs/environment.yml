@@ -1,0 +1,26 @@
+name: risk_env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - matplotlib
+  - pandas
+  - numpy
+  - seaborn
+  - pytorch 
+  - torchvision
+  - torchaudio
+  - scikit-learn
+  - imbalanced-learn
+  - swig
+  - pip==21
+  - pip:
+    - ucimlrepo
+    - setuptools==65.5.0
+    - wheel==0.38.0
+    - stable-baselines3
+    - sb3-contrib
+    - gym[extra]
